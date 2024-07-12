@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/orderTableLayout">
+
+        <!-- Header Row -->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item Name"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:paddingEnd="16dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:text="Quantity"
+                android:layout_marginLeft="17dp"
+                android:textStyle="bold"
+                android:paddingEnd="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:layout_marginLeft="36dp"
+                android:text="Cost"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <!-- Dynamically add rows for each item -->
+        <!-- This will be populated programmatically -->
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/totalCostTextView"
+        android:layout_width="276dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/orderTableLayout"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="444dp"
+        android:text="Total Cost: ₹0"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/confirmOrderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Order"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:backgroundTint="@color/pink"/>
+
+
+</RelativeLayout>

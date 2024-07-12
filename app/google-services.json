@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "863659834751",
+    "firebase_url": "https://gas-emission-control-default-rtdb.firebaseio.com",
+    "project_id": "gas-emission-control",
+    "storage_bucket": "gas-emission-control.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863659834751:android:8b143de65b7653611cae4a",
+        "android_client_info": {
+          "package_name": "com.example.connectandroid_sql"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZHZj9YkOXIZdf9JMYIJFypP8akMj2_28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863659834751:android:e553107f2c1c3dd31cae4a",
+        "android_client_info": {
+          "package_name": "com.example.loginpage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZHZj9YkOXIZdf9JMYIJFypP8akMj2_28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863659834751:android:e01cbbc5f64856eb1cae4a",
+        "android_client_info": {
+          "package_name": "com.example.orderpage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZHZj9YkOXIZdf9JMYIJFypP8akMj2_28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863659834751:android:c5dd00d70630c2f41cae4a",
+        "android_client_info": {
+          "package_name": "com.example.poultryfarm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZHZj9YkOXIZdf9JMYIJFypP8akMj2_28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

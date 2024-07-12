@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink">#FF4081</color>
+    <color name="purple">#1D8178</color>
+    <color name="blue">#003C56</color>
+    <color name="green">#A9B252</color>
+    <color name="brown">#C49168</color>
+    <color name="logbg">#E6F4F1</color>
+    <color name="cart">#3A4856</color>
+    <color name="pleasant">#00B5F5</color>
+    <color name="pt">#BEA5AA</color>
+    <color name="yt">#A4ABBD</color>
+    <color name="bg">#FDEEE9</color>
+    <color name="tt">#A6D1BA</color>
+    <color name="conord">#338BA7</color>
+    <color name="bgp">#BEA6A0</color>
+    <color name="dd">#2F4858</color>
+    <color name="ttt">#904579</color>
+    <color name="purplep">#8CA8DD</color>
+
+</resources>
